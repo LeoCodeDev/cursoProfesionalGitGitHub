@@ -5,3 +5,7 @@ de manera profesional para poder usarlo en el futuro.
 
 Bueno este cambio es para poder ver el funcionamiento de
 git diff.
+
+Hare un cambio para poder ejecutar el comando
+git reset
+para continuar con el curso
