@@ -2,3 +2,6 @@ hola, esto es una prueba de git y github.
 estoy haciendo este curso con platzi
 estoy aprendiendo a usar el sistema de control de versiones
 de manera profesional para poder usarlo en el futuro.
+
+Bueno este cambio es para poder ver el funcionamiento de
+git diff.
