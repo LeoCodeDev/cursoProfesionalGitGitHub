@@ -2,6 +2,13 @@ body{
     text-align: center;
 }
 
+header {
+    font-size: 4em;
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid;
+}
+
 ul{
     text-align: left;
     display: inline-block;
