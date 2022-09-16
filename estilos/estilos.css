@@ -1,5 +1,35 @@
 body{
+    margin: 0;
+    padding: 0;
     text-align: center;
+}
+
+header {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid;
+    display: flex;
+    align-content: space-between;
+}
+
+.pheader{
+    display: flex;
+    align-self: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.header > li, ul{
+    font-size: 1rem;
+    display: inline-block;
+    align-self: center;
+    align-content: flex-end;
+    margin: 0;
+    padding: 0;
 }
 
 ul{
