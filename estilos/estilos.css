@@ -2,10 +2,13 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-    width: 100%;
+    width: 85%;
+    height: 100px;
     padding: 0;
     margin: 0;
     font-size: 2em;
@@ -13,21 +16,21 @@ header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: solid;
     display: flex;
-    align-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
 }
 
 .pheader{
-    display: flex;
-    align-self: flex-start;
+    align-self: center;
     margin: 0;
     padding: 0;
 }
 
 .header > li, ul{
+    align-self: center;
     font-size: 1rem;
     display: inline-block;
-    align-self: center;
-    align-content: flex-end;
     margin: 0;
     padding: 0;
 }
@@ -35,4 +38,9 @@ header {
 ul{
     text-align: left;
     display: inline-block;
+}
+
+p {
+    width: 85%;
+    align-self: center;
 }
