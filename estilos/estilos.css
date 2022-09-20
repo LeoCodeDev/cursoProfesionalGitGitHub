@@ -39,6 +39,11 @@ ul{
     display: inline-block;
 }
 
+p {
+    width: 85%;
+    align-self: center;
+}
+
 footer {
     font-size: 1em;
     border: solid;
